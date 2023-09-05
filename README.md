@@ -1,23 +1,23 @@
-# <%= title %> Format
+# stat20slides Format
 
 ## Installing
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
-
 ```bash
-quarto use template <github-organization>/<%= filesafename %>
+quarto add stat20/stat20slides
 ```
 
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
-
-## Using
-
-*TODO*: Describe how to use your format.
+This will install the extension.
 
 ## Format Options
 
-*TODO*: If your format has options that can be set via document metadata, describe them.
+This is a sample deck for Stat 20 slides. The features include:
+
+1. Title slide with background image.
+2. A bunch of yaml defaults.
+3. Clickable logo in lower right that links to `stat20.org`.
+4. No log or slide number on title slide.
+5. Custom `:::poll` div for poll questions.
 
 ## Example
 
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
+Here is the source code for a minimal sample document: [template.qmd](template.qmd).
