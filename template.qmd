@@ -10,10 +10,17 @@ This is a sample deck for Stat 20 slides. The features include:
 1. Title slide with background image.
 2. A bunch of yaml defaults.
 3. Clickable logo in lower right that links to `stat20.org`.
-4. No log or slide number on title slide.
+4. No logo or slide number on title slide.
 5. Custom `:::poll` div for poll questions.
 
-## More Information
+## Example poll
 
-You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
+You can provide set up for the code as if it is a normal slide.
 
+::: poll
+What is your favorite color?
+
+A. Red  
+B. Green  
+C. Blue  
+:::
