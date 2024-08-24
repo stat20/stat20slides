@@ -12,6 +12,11 @@ This is a sample deck for Stat 20 slides. The features include:
 3. Clickable logo in lower right that links to the previous page.
 4. No logo or slide number on title slide.
 5. Custom `:::poll` div for poll questions.
+6. A [countdown timer](https://github.com/gadenbuie/countdown/tree/main/quarto) accessible by adding
+
+   `{{< countdown "01:30" >}}`
+   
+   on a new line.
 
 ## Example poll
 
@@ -24,3 +29,5 @@ A. Red
 B. Green  
 C. Blue  
 :::
+
+{{< countdown "01:30" >}}
